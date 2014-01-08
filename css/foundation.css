@@ -44,17 +44,17 @@ body {
   position: relative;
   cursor: default; }
   
+
   .orange {color:#a8221b }
+.red {background-color:#c0392b }
   .darkgray{ background-color:#7f8c8d;}
   .green{ background-color:#16a085;}
   .gray{ background-color:#262728;}
   .blu{ background-color:#2c3e50;}
    .light{ background-color:#ecf0f1;}
   .logo { background-image:url(../img/logo.png); background-position:center; background-repeat:no-repeat; height:270px;}
-
-  .graph-77{ height:77%}
-  .graph-23{ height:23%}
-  .graph-100{ height:100%}
+    .icon-farm { background-image:url(../img/icon-farm-1.png); height:86px; background-position:center; background-repeat:no-repeat; margin:50px 0px 30px 0px; }
+  
   
   
 /* Tipografia */

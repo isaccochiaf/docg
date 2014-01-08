@@ -13,6 +13,11 @@
         background-image:url(../img/icon-light-x2.png); background-size: 76px 86px 
 		
     }
+    
+     div.icon-farm {
+        background-image:url(../img/icon-farm.png); background-size: 76px 86px 
+		
+    }
 	
 	
 }
