@@ -1,0 +1,53 @@
+/*RetinaDisplay*/
+@media(-webkit-min-device-pixel-ratio: 2) {
+    div.logo {
+        background-image:url(../img/logo-x2.png); background-size: 198px 229px 
+		
+    }
+	div.icon {
+        background-image:url(../img/icon-x2.png); background-size: 76px 86px 
+		
+    }
+    
+    div.icon-light {
+        background-image:url(../img/icon-light-x2.png); background-size: 76px 86px 
+		
+    }
+	
+	
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 320px) {
+    
+
+}
+	
+ /*iPhone*/
+@media only screen 
+    and (min-width : 320px) 
+    and (max-width : 480px) 
+    {
+		 .band{ height:150px;}
+		div .titolo{ font-size:150%;}
+		.graph-100{ height:600px}
+		
+		.titolo-02{ font-size:130%; font-family: 'Lato', sans-serif;}
+		
+		.titolo-04{ font-size:150%;}
+		
+	 
+	
+}
+	 
+/*Tablet*/
+	@media only screen 
+	and (min-device-width : 500px) 
+	and (max-device-width : 1024px) {
+		
+
+	
+
+}
+	
