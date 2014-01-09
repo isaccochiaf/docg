@@ -44,7 +44,7 @@ body {
   position: relative;
   cursor: default; }
   
-
+    .alabaster {color:#48484a }
   .orange {color:#a8221b }
 .red {background-color:#c0392b }
   .darkgray{ background-color:#7f8c8d;}
@@ -61,12 +61,12 @@ body {
 	.centred{ text-align:center}
 	.band{ height:300px;}
 	.white{ color:#FFF;}
-	.titolo{ font-size:260%; font-family: 'Lato', sans-serif; text-align:center; font-weight:900; padding-top:10%}
-	.intestazione{ font-size:160%; text-align:center; font-weight:400; padding-top:70px; font-family: 'Gentium Basic'; font-style:italic; }
-	.sub-intestazione{ font-size:140%; font-family: 'Lato', sans-serif; text-align:center; font-weight:300; padding:5px; letter-spacing:2px;}
+	.titolo{ font-size:260%; font-family: 'Lato', sans-serif; text-align:left; font-weight:900; padding-top:10%}
+	.intestazione{ font-size:160%; text-align:left; font-weight:400; padding-top:20px; font-family: 'Gentium Basic'; font-style:italic; letter-spacing:1px; }
+	.sub-intestazione{ font-size:140%; font-family: 'Lato', sans-serif; text-align:left; font-weight:300; padding:5px 0; letter-spacing:3px;}
 	.sub-intestazione strong{  font-weight:900;}
 
-	.sub-titolo{font-size:160%; font-family: 'Lato', sans-serif; text-align:center; font-weight:300; padding:10px 0 30px 0;}
+	.sub-titolo{font-size:160%; font-family: 'Lato', sans-serif; text-align:left; font-weight:300; padding:10px 0 20px 0;}
 	.italic {font-family: 'Gentium Book Basic', serif; font-style:italic;}
     .testo {
     font-family: 'Merriweather', serif; font-weight:300;
@@ -103,8 +103,8 @@ body {
 	
 	
 	.white{ color:#FFF;}
-	.titolo{ font-size:260%; font-family: 'Lato', sans-serif; text-align:center; font-weight:900; padding-top:10%}
-	.sub-titolo{font-size:160%; font-family: 'Lato', sans-serif; text-align:center; font-weight:300}
+
+	
 	.italic {font-family: 'Gentium Book Basic', serif; font-style:italic;}
 	.bold {font-weight:700; font-style:italic;}
 	.head{ font-size:200%}
