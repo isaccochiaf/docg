@@ -10,6 +10,7 @@
     <link href='http://fonts.googleapis.com/css?family=Gentium+Book+Basic:400,400italic' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/font-awesome.min.css">
+     
     <link rel="icon" type="image/png" href="favicon.png" />
        
 	<script src="js/modernizr.js"></script>
@@ -283,29 +284,53 @@ $(window).load(function(){
   <!-- Footer -->
 <div class="header gray" > 
   <footer class="row">
-    <div class="large-12 columns">
+    
       
-      <div class="row">
-        <div class="large-4 columns white" style="border-right: solid thin #555; margin:20px;">
-          <p class="footer-text">DATA<strong>SET</strong></p>
-            <p class="footer-text">Open data Piemonte</p>
-            <p class="footer-text">Sistema Piemonte</p>
-            <p class="footer-text">ISTAT - Censimento agricolura</p>
+      
+        <div class="medium-4 columns white" style=" margin:20px 0;">
+          <p class="footer-titolo">DATA<strong>SET</strong></p>
+            <p class="footer-text"> <a href="http://www.dati.piemonte.it/">Open data Piemonte</a></p>
+            <p class="footer-text"><a href="http://www.sistemapiemonte.it/fedwcapu/elenco.jsp">Sistema Piemonte(2010)</a></p>
+            <p class="footer-text"><a href="http://dati-censimentoagricoltura.istat.it/">ISTAT - Censimento agricolura (2010)</a></p>
+            <p class="footer-text"><a href="http://www.federdoc.com/">Federdoc (2010)</a></p>
         </div>
           
-           <div class="large-4 columns white" style="border-right: solid thin #555; margin:20px;">
-          <p class="footer-text">Downloa PDF</p>
-               <a href="http://www.facebook.com/share.php?u=<url>" onclick="return fbs_click()" target="_blank"> <img src= "http://b.static.ak.fbcdn.net/images/share/
-facebook_share_icon.gif?8:26981" alt="" /></a>
+           <div class="medium-4 columns white" style="margin:20px 0;" >
+               <p class="footer-titolo">SHARE<strong> ME</strong></p>
           
-           <div class="large-4 columns white" style="border-right: solid thin #555; margin:20px;">
-          <p class="footer-text">Copiright</p>
-        </div>
+              <a id="ref_fb"  href="http://www.facebook.com/sharer.php?s=100&amp;p[title]=Piemonte DOC(G)&amp;p[summary]=Piemonte visualisation&amp;p[url]=<?php echo urlencode($share_url);?>&amp;
+p[images][0]=http://www.isaccochiaf.me/docg/img/chart-medium-up.jpg" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=no,scrollbars=no,height=400,width=600'); return false;"><img src="https://cdn1.iconfinder.com/data/icons/leaf/256/facebook.png" width="30px" alt=""/></a>
+               
+               <a id="ref_tw" href="http://twitter.com/home?status=@IsaccoChiaf Dataviz+http://www.isaccochiaf.me/docg/ #tah"  onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=no,scrollbars=no,height=400,width=600');return false;"><img src="https://cdn3.iconfinder.com/data/icons/leaf/128/twitter.png" width="30px" alt=""/></a>
+          
+               <a id="ref_gp" href="https://plus.google.com/share?url=http://www.isaccochiaf.me/docg/"
+onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=no,scrollbars=no,height=400,width=600');return false"><img src="https://cdn3.iconfinder.com/data/icons/leaf/128/googleplus.png" width="30px" alt=""/></a>
+               <br /><br /><br />
+          <p class="footer-titolo" style="text-align:left;"><img src="http://graphicburger.com/wp-content/themes/gridly/images/img_new_14.png"/> DOWNLOAD PDF</p>
+               <p class="footer-text">Scarica questa infografica in pdf ad alta risoluzione</p>
+               <a href="http://www.isaccochiaf.me/docg/?iframe=true&width=641&height=521" rel="lightbox[iframes]">Embedd </a>
         
       </div>
-    </div>
+      
+      <div class="medium-4 columns white" style="margin:20px 0;" >
+        <p class="footer-titolo">DESIGN <strong>SVILUPPO</strong></p>
+          <p class="footer-titolo">Isacco Chiaf</p>
+          <br /><br />
+           <p class="footer-text">Tutti i contenuti del sito sono soggetti alla licenza Creative Commons Attributions and Share Alike 3.0 Italia</p>
+          <img src="http://opencontent.uct.ac.za/files/siteimages/image/2_by-sa.png" width="120px" alt=""/>
+      </div>
+          
+    
   </footer>
-</div>  
+    
+    <div class="header" style="background-color:#111" > 
+  <footer class="row">
+      <div class="medium-12 columns white" style="margin:10px 0;">
+          <p class="footer-text"> Built with <a href="http://foundation.zurb.com/" target="_blank">Foundation</a></p>
+        </div>
+      </footer>
+        </div>
+  
     
     <script src="js/jquery.js"></script>
     <script src="js/foundation.min.js"></script>

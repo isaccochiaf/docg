@@ -43,8 +43,20 @@ body {
   line-height: 1;
   position: relative;
   cursor: default; }
-  
-.lightgray{ background-color:#bcc2c6 }    
+
+::selection {
+	background: #c0392b ; /* Safari */
+    color:#FFF
+	}
+::-moz-selection {
+	background: #c0392b ; /* Firefox */
+     color:#FFF
+}
+
+
+  .darkergray{ background-color:#242424 } 
+.lightgray{ background-color:#bcc2c6 } 
+
 .alabaster {color:#48484a }
   .orange {color:#a8221b }
 .red {background-color:#c0392b }
@@ -102,7 +114,9 @@ body {
 	
 	/* Tipografia */
 	
-	
+	.footer-text {font-family: 'Lato', sans-serif; font-weight:100; font-size:14px; color:#868d91}
+.footer-titolo {font-family: 'Lato', sans-serif; font-weight:100;}
+.footer-titolo strong {font-family: 'Lato', sans-serif; font-weight:900; letter-spacing:2px;}
 	.white{ color:#FFF;}
 
 	
