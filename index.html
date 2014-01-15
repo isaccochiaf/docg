@@ -6,42 +6,65 @@
     <title>Piemonte Vino</title>
     <link rel="stylesheet" href="css/media-query.css">
     <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="css/style.css" />
+      
     <link href='http://fonts.googleapis.com/css?family=Lato:300,400,900' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Gentium+Book+Basic:400,400italic' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/font-awesome.min.css">
-     
-    <link rel="icon" type="image/png" href="favicon.png" />
-       
-	<script src="js/modernizr.js"></script>
-    <script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
-     <script type="text/javascript">
-    jQuery(document).ready(function($) {  
 
-// site preloader -- also uncomment the div in the header and the css style for #preloader
-$(window).load(function(){
-	$('#preloader').fadeOut('slow',function(){$(this).remove();});
-});
 
-});
-    </script>
-    
-   
-    
-   
 
 
 
   </head>
   <body>
-  
       
-   <div id="preloader"></div>
+      <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+      
+
 
     
   
+      
+  <a href="#" data-reveal-id="firstModal" class="bottone show-for-medium-up"onclick="return false;"><img src="img/ribbon.png"  
+     style="position: fixed;top:0;right:0;border:none; z-index:1"></a>
+      
+      <div id="firstModal" class="reveal-modal" data-reveal>
+  <h2>Copia e incolla il codice <br /> <small>Scegli la larghezza che preferisci</small></h2>
+          <hr>
+          
+  <p>400px</p>
   
- 
+        <div class="panel">
+  &lt;iframe src="http://www.isaccochiaf.me/docg/" width="400" height="650" frameborder="0" style="border:0"&gt; &lt;/iframe&gt;
+            &lt;a href="http://www.isaccochiaf.me/docg" target="_blank"&gt; Visit original &lt;/a&gt;
+</div>
+          <p>600px</p>
+  
+        <div class="panel">
+  &lt;iframe src="http://www.isaccochiaf.me/docg/" width="600" height="750" frameborder="0" style="border:0"&gt; &lt;/iframe&gt;
+            &lt;a href="http://www.isaccochiaf.me/docg" target="_blank"&gt; Visit original &lt;/a&gt;
+</div>
+          <p>900px</p>
+  
+        <div class="panel">
+  &lt;iframe src="http://www.isaccochiaf.me/docg/" width="900" height="550" frameborder="0" style="border:0"&gt; &lt;/iframe&gt;
+            &lt;a href="http://www.isaccochiaf.me/docg" target="_blank"&gt; Visit original &lt;/a&gt;
+</div>
+          
+  <a class="close-reveal-modal">&#215;</a>
+</div>
+      <div class="reveal-modal-bg" style="display: none"></div>
+
+      
   <!-- End Header and Nav -->
  <div class="header">
  
@@ -78,6 +101,58 @@ $(window).load(function(){
     	</div>
   	</div>
 </div>
+      
+      
+      
+      <div class="header lightgray" > 
+       
+   <div class="row">
+    <div class="medium-12 columns centred ">
+        <div class="icon-light"></div>
+     <div class="titolo-02 white">PIEMONTE IN ITALIA</div>
+        <hr>
+        </div>
+    </div>
+       
+       <!-- Blank Space -->
+  <div class="row">
+   <br /> <br /> 
+  </div>
+    <!-- Blank Space -->
+    
+          </div>
+  <div class="header lightgray" >
+  	<div class="row">
+       <div class="medium-2 columns"><br /></div>
+    	<div class="medium-8 columns show-for-medium-up"><img src="img/bar_italy.jpg" width="776px" height="552px"></div>
+        <div class="small-12 columns show-for-small-only">
+        <center>
+        <img class="show-for-portrait" src="img/bar_italy_phone.jpg" width="776px" height="552px">
+             <img class="show-for-landscape" src="img/bar_italy.jpg" width="776px" height="552px">
+          </center>  
+        </div>
+        
+        
+        
+    </div>
+      
+      <div class="row" style="padding:100px 0 100px 0">
+          <div class="medium-2 columns"><br /></div>
+        
+         <div class="large-10 columns">
+         
+             <p class="testo white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur laborum</p>
+            
+        </div>
+       
+          
+    
+        
+        
+    </div>
+      
+  </div>
+      
 
    <!-- Blank Space -->
     
@@ -170,9 +245,14 @@ $(window).load(function(){
   
      <p class="testo">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur laborum</p>
     </div>
-    <div class="medium-12 columns" > 
+    <div class="medium-12 columns show-for-medium-up" > 
         <center>
-    <img src="img/bicolor.png" width="447px" height="315px" style="margin:0">
+    <img src="img/bicolor.jpg" width="811px" height="572px" style="margin:0">
+        </center>
+    </div>
+         <div class="medium-12 columns show-for-small-only" > 
+        <center>
+    <img src="img/bicolor-phone.jpg" width="398px" height="424px" style="margin:0">
         </center>
     </div>
     </div>
@@ -295,16 +375,25 @@ onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=
                <br /><br /><br />
           <p class="footer-titolo" style="text-align:left;"><img src="http://graphicburger.com/wp-content/themes/gridly/images/img_new_14.png"/> DOWNLOAD PDF</p>
                <p class="footer-text">Scarica questa infografica in pdf ad alta risoluzione</p>
-               <a href="http://www.isaccochiaf.me/docg/?iframe=true&width=641&height=521" rel="lightbox[iframes]">Embedd </a>
+              
+
+
+	
+
+	
+
+	
+
         
       </div>
+     
       
       <div class="medium-4 columns white" style="margin:20px 0;" >
         <p class="footer-titolo">DESIGN <strong>SVILUPPO</strong></p>
           <p class="footer-titolo">Isacco Chiaf</p>
           <br /><br />
            <p class="footer-text">Tutti i contenuti del sito sono soggetti alla licenza Creative Commons Attributions and Share Alike 3.0 Italia</p>
-          <img src="http://opencontent.uct.ac.za/files/siteimages/image/2_by-sa.png" width="120px" alt=""/>
+          <img src="img/cc-by-sa.png" width="120px" alt=""/>
       </div>
           
     
@@ -319,10 +408,29 @@ onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=
         </div>
   
     
-    <script src="js/jquery.js"></script>
-    <script src="js/foundation.min.js"></script>
-    <script>
-      $(document).foundation();
-    </script>
+   <script src="js/vendor/jquery.js"></script>
+  <script src="js/foundation/foundation.js"></script>
+  <script src="js/foundation/foundation.reveal.js"></script>
+    <script src="js/foundation/foundation.tab.js"></script>
+ 
+  
+   <script type="text/javascript">
+  $(document).ready(function() {
+    $(document).on("click",".bottone",function(){
+      $("#firstModal").foundation('reveal', 'open');
+    });
+      $(document).on("click",".close-reveal-modal",function(){
+      $("#firstModal").foundation('reveal', 'close');
+    });
+   
+  });
+</script>
+    
+
+   
+
+    
+    
+     
   </body>
 </html>
