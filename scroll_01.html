@@ -10,23 +10,22 @@
     <script src="js/modernizr.js"></script>
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
       
-      <style>
+      <style type="text/css">
 #map {
   width: 100%;
   height: 600px;
+  
 }
+          .fix {position: fixed;top:0;right:0;border:none; z-index:1}
 </style>
   </head>
   <body>
       
-      <button data-reveal-id="myModal">
-    Click Me For A Modal
-</button>
-       <div id="myModal" class="reveal-modal" data-reveal >
-           <a class="scroll" href="#campania">Anchor Link</a>
 
+<div class="large-12 columns fix">
 <div id="map" class="leaflet-container leaflet-fade-anim" tabindex="0" style="position: relative;"><div class="leaflet-map-pane" style="-webkit-transform: translate3d(0px, 0px, 0);"><div class="leaflet-tile-pane"><div class="leaflet-layer"><div class="leaflet-tile-container"></div><div class="leaflet-tile-container leaflet-zoom-animated"><img class="leaflet-tile leaflet-tile-loaded" src="http://c.tiles.mapbox.com/v3/distant.goc6plnk/4/8/6.png" style="height: 256px; width: 256px; left: 282px; top: 98px;"><img class="leaflet-tile leaflet-tile-loaded" src="http://d.tiles.mapbox.com/v3/distant.goc6plnk/4/8/7.png" style="height: 256px; width: 256px; left: 282px; top: 354px;"><img class="leaflet-tile leaflet-tile-loaded" src="http://b.tiles.mapbox.com/v3/distant.goc6plnk/4/7/6.png" style="height: 256px; width: 256px; left: 26px; top: 98px;"><img class="leaflet-tile leaflet-tile-loaded" src="http://b.tiles.mapbox.com/v3/distant.goc6plnk/4/8/5.png" style="height: 256px; width: 256px; left: 282px; top: -158px;"><img class="leaflet-tile leaflet-tile-loaded" src="http://d.tiles.mapbox.com/v3/distant.goc6plnk/4/9/6.png" style="height: 256px; width: 256px; left: 538px; top: 98px;"><img class="leaflet-tile leaflet-tile-loaded" src="http://a.tiles.mapbox.com/v3/distant.goc6plnk/4/9/7.png" style="height: 256px; width: 256px; left: 538px; top: 354px;"><img class="leaflet-tile leaflet-tile-loaded" src="http://c.tiles.mapbox.com/v3/distant.goc6plnk/4/9/5.png" style="height: 256px; width: 256px; left: 538px; top: -158px;"><img class="leaflet-tile leaflet-tile-loaded" src="http://c.tiles.mapbox.com/v3/distant.goc6plnk/4/7/7.png" style="height: 256px; width: 256px; left: 26px; top: 354px;"><img class="leaflet-tile leaflet-tile-loaded" src="http://a.tiles.mapbox.com/v3/distant.goc6plnk/4/7/5.png" style="height: 256px; width: 256px; left: 26px; top: -158px;"><img class="leaflet-tile leaflet-tile-loaded" src="http://a.tiles.mapbox.com/v3/distant.goc6plnk/4/10/6.png" style="height: 256px; width: 256px; left: 794px; top: 98px;"><img class="leaflet-tile leaflet-tile-loaded" src="http://a.tiles.mapbox.com/v3/distant.goc6plnk/4/6/6.png" style="height: 256px; width: 256px; left: -230px; top: 98px;"><img class="leaflet-tile leaflet-tile-loaded" src="http://d.tiles.mapbox.com/v3/distant.goc6plnk/4/10/5.png" style="height: 256px; width: 256px; left: 794px; top: -158px;"><img class="leaflet-tile leaflet-tile-loaded" src="http://d.tiles.mapbox.com/v3/distant.goc6plnk/4/6/5.png" style="height: 256px; width: 256px; left: -230px; top: -158px;"><img class="leaflet-tile leaflet-tile-loaded" src="http://b.tiles.mapbox.com/v3/distant.goc6plnk/4/6/7.png" style="height: 256px; width: 256px; left: -230px; top: 354px;"><img class="leaflet-tile leaflet-tile-loaded" src="http://b.tiles.mapbox.com/v3/distant.goc6plnk/4/10/7.png" style="height: 256px; width: 256px; left: 794px; top: 354px;"></div></div></div><div class="leaflet-objects-pane"><div class="leaflet-shadow-pane"><img src="//api.tiles.mapbox.com/mapbox.js/v1.5.1/images/marker-shadow.png" class="leaflet-marker-shadow leaflet-zoom-animated" style="margin-left: -12px; margin-top: -41px; width: 41px; height: 41px; -webkit-transform: translate3d(449px, 102px, 0);"><img src="//api.tiles.mapbox.com/mapbox.js/v1.5.1/images/marker-shadow.png" class="leaflet-marker-shadow leaflet-zoom-animated" style="margin-left: -12px; margin-top: -41px; width: 41px; height: 41px; -webkit-transform: translate3d(280px, 546px, 0);"></div><div class="leaflet-overlay-pane"></div><div class="leaflet-marker-pane"><img src="//api.tiles.mapbox.com/mapbox.js/v1.5.1/images/marker-icon.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-clickable" tabindex="0" style="margin-left: -12px; margin-top: -41px; width: 25px; height: 41px; -webkit-transform: translate3d(449px, 102px, 0); z-index: 102;"><img src="//api.tiles.mapbox.com/mapbox.js/v1.5.1/images/marker-icon.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-clickable" tabindex="0" style="margin-left: -12px; margin-top: -41px; width: 25px; height: 41px; -webkit-transform: translate3d(280px, 546px, 0); z-index: 546;"></div><div class="leaflet-popup-pane"></div></div></div><div class="leaflet-control-container"><div class="leaflet-top leaflet-left"></div><div class="leaflet-top leaflet-right"><div class="leaflet-control-grid map-tooltip leaflet-control" style="display: none;"><a class="close" href="#" title="close">close</a><div class="map-tooltip-content"></div></div></div><div class="leaflet-bottom leaflet-left"></div><div class="leaflet-bottom leaflet-right"><div class="map-legends wax-legends leaflet-control" style="display: none;"></div><div class="mapbox-control-info mapbox-small mapbox-control-info-right leaflet-control" style="display: block;"><div class="map-info-container"><a href="http://mapbox.com/about/maps" target="_blank">Terms &amp; Feedback</a></div><a class="mapbox-info-toggle mapbox-icon mapbox-icon-info" href="#"></a></div></div></div></div>
-   </div>
+    </div>
+  
 <script>
  
 function onEachFeature(feature, layer) {
