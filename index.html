@@ -96,14 +96,14 @@ document.ibars.scrollcode.value = cssstart + csscontentpart + cssend
                        
                         <div class="medium-3 columns">
                         
-                            <label>Width</label>
-                          <input class="hexfield" type="text" name="iframeWidth" value="" size="10" placeholder="esempio 200">
+                            <label>Width (pixel)</label>
+                          <input class="hexfield" type="text" name="iframeWidth" value="" size="10" placeholder="esempio: 400">
                         </div>
                         
                           <div class="medium-3 columns">
                         
-                       <label>Height</label>
-                          <input class="hexfield" type="text" name="iframeHeight" value="" size="10" placeholder="esempio 200"></div>
+                       <label>Height (pixel)</label>
+                          <input class="hexfield" type="text" name="iframeHeight" value="" size="10" placeholder="esempio: 500"></div>
                          <div class="large-12 columns">
                             <input type="button" value="Genera codice" class="button" onClick="generate()" name="button">
                           </div>
@@ -120,7 +120,7 @@ document.ibars.scrollcode.value = cssstart + csscontentpart + cssend
               <h4>Condividi</h4>
               <a style="color:#FFF" id="ref_fb"  href="http://www.facebook.com/sharer.php?s=100&amp;p[title]=Piemonte DOC(G)&amp;p[summary]=Infografica responsive integrabile realizzata per il Piemonte Visual Contest&amp;p[url]=http://www.isaccochiaf.me/docg/&amp;
 p[images][0]=http://www.isaccochiaf.me/docg/img/chart-medium-up.jpg" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=no,scrollbars=no,height=400,width=600'); return false;">
-              <div class="button"> <i class="fa fa-facebook"></i> Facebook </div></a>
+              <div class="button" style="background-color:#3B5998 "> <i class="fa fa-facebook"></i> Facebook </div></a>
           
               
               <a id="ref_tw" href="http://twitter.com/home?status=@IsaccoChiaf Infografica responsive integrabile http://www.isaccochiaf.me/docg/ realizzata per il %23piemonteviz"  onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=no,scrollbars=no,height=400,width=600');return false;">
@@ -148,7 +148,7 @@ onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=
       <!-- SNippet 01 -->
           
 <div class="reveal-modal-bg" style="display: none"></div>
-
+ <div class="header" style="height:100%">
  <div class="header">
  
  	<div class="row alabaster">
@@ -157,6 +157,7 @@ onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=
         
       <div class="titolo">VINO PIEMONTESE</div>
       <div class="sub-titolo">DOC <img src="img/and.png" width="27px" height="19px"> DOCG</div>
+               <p class="testo" style="text-align:center"> Un' infografica responsive <br /> sulla produzione di vino DOC e DOG in Peimonte. </p>
     	</div>
   	</div>
 </div>
@@ -177,12 +178,13 @@ onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=
  		
     	<div class="large-12 columns band">
       <div class="intestazione">Basato sui dati di</div>
-      <div class="sub-intestazione"><strong>OPEN</strong>DATA<strong>PIEMONTE</strong></div>
-            <center><img src="img/and.png" width="27px" height="19px"></center>
+        <div class="sub-intestazione"><strong>OPEN</strong>DATA<strong>PIEMONTE</strong></div>
+        <center><img src="img/and.png" width="27px" height="19px">  </center>
             <div class="sub-intestazione"><strong>SISTEMA</strong>PIEMONTE.<strong>IT</strong></div>
             <div class="sub-intestazione">2010</div>
     	</div>
   	</div>
+</div>
 </div>
       
     <!-- snipper 02   -->   
@@ -204,37 +206,23 @@ onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=
     <!-- Blank Space -->
     
           </div>
-  <div class="header lightgray" >
+  <div class="header lightgray" style="padding-bottom:100px;">
   	<div class="row">
-    
-    	<div class="large-12 columns show-for-medium-up"><center><img src="img/bar_italy.jpg" width="776px" height="612px"></center></div>
-        <div class="small-12 columns show-for-small-only">
+     <div class="small-12 columns show-for-small-only">
         <center>
         <img class="show-for-portrait" src="img/bar_italy_phone.jpg" width="776px" height="552px">
-             <img class="show-for-landscape" src="img/bar_italy.jpg" width="776px" height="552px">
+             <img class="show-for-landscape" src="img/bar_italy_phone-portrait.jpg" width="776px" height="552px">
           </center>  
         </div>
+    	<div class="large-8 columns show-for-medium-up"><img src="img/bar_italy.jpg" width="776px" height="612px"></div>
         
-        
-        
-    </div>
-      
-      <div class="row" style="padding:100px 0 100px 0">
-          <div class="medium-2 columns"><br /></div>
-        
-         <div class="large-10 columns">
+         <div class="large-4 columns">
          
-             <p class="testo alabaster">Il Piemonte è una regione rinomata per i suoi vini pregiati e per la produzione di vino DOC e DOCG.
+             <p class="testo alabaster"><br /><br />Il Piemonte è una regione rinomata per i suoi vini pregiati e per la produzione di vino DOC e DOCG.
 Per quanto riguarda la produzione di vini, il Piemonte, è la <strong>quarta</strong> regione nella scala italiana, dopo Veneto e Toscana. Ma per quanto riguarda la produzione di vini DOC e DOCG il piemonte è la seconda regione in Italia. Se si guarda alla produzione di vini DOC(G) in rapporto ala produzione totale, il Piemonte risulta al primo posto in Italia con una produzione dell’ 87%.</p>
             
         </div>
-       
-          
-    
-        
-        
-    </div>
-      
+    </div>   
   </div>
       
 
@@ -382,11 +370,35 @@ Attualmente il vino DOC(G) maggiormente prodotto in Piemonte è l’Asti, seguon
         </center>
     </div>
  
+    <div class="medium-12 columns centred ">
+        <br />  <br />  <br />
+     <div class="titolo-02 white">NUMERO DI IMPRESE PER ESTENSIONE</div>
+        <hr>
+        </div>
+           
+<div class="large-6 columns" > 
+    <div class="medium-6 columns" > 
+        <img src="img/_50.png" style="margin:0">  
+    </div>
     
-     <div class="medium-5 columns" style="margin-top:70px;" > 
+     <div class="medium-6 columns" > 
+        <img src="img/_20_50.png" style="margin:0">  
+    </div>
+</div>
+<div class="large-6 columns" > 
+     <div class="medium-6 columns" > 
+        <img src="img/_3_20.png" style="margin:0">  
+    </div>
+           
+     <div class="medium-6 columns" > 
+        <img src="img/_1_3.png" style="margin:0">  
+    </div>
+</div>
+            <div class="medium-5 columns" style="margin-top:70px;" > 
         <p class="testo white">Attualmente in Piemonte ci sono 13 mila aziende impregnate nella produzione di vini Doc(G)</p>
          <br /> <br /> <br />
     </div>
+           
            <div class="medium-7 columns" style="margin-top:100px;" > 
         <br />
     </div>
@@ -406,7 +418,7 @@ Attualmente il vino DOC(G) maggiormente prodotto in Piemonte è l’Asti, seguon
    <div class="row">
     <div class="medium-12 columns centred ">
         <div class="icon-01"></div>
-     <div class="titolo-02 white">TOP REGIONI</div>
+     <div class="titolo-02 white">TOP PROVINCE</div>
         <hr>
         </div>
     </div>
@@ -467,24 +479,17 @@ p[images][0]=http://www.isaccochiaf.me/docg/img/chart-medium-up.jpg" onclick="ja
                <a id="ref_gp" href="https://plus.google.com/share?url=http://www.isaccochiaf.me/docg/"
 onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=no,scrollbars=no,height=400,width=600');return false"><img src="https://cdn3.iconfinder.com/data/icons/leaf/128/googleplus.png" width="30px" alt=""/></a>
                <br /><br /><br />
+                <div class="medium-12 columns hide-for-touch">
           <p class="footer-titolo"><strong> OPEN</strong> WITH <strong>MOBILE</strong></p>
-              <div class="hide-for-touch"><img src="img/ihr_qr_code_ohne_logo.jpg" width="150"></div>
-      <div class="show-for-touch">NOTTOUCH</div>
-
-
-	
-
-	
-
-	
-
+             <img src="img/ihr_qr_code_ohne_logo.jpg" width="150"></div>
         
       </div>
      
       
       <div class="medium-4 columns white" style="margin:20px 0;" >
         <p class="footer-titolo">DESIGN <strong>SVILUPPO</strong></p>
-          <p class="footer-titolo">Isacco Chiaf</p>
+          <p class="footer-titolo">Isacco Chiaf <a href="mailto:isacco.chiaf@gmail.com" target="_blank">Contatto</a></p>
+          
           <br /><br />
            <p class="footer-text">Tutti i contenuti del sito sono soggetti alla licenza Creative Commons Attributions and Share Alike 3.0 Italia</p>
           <img src="img/cc-by-sa.png" width="120px" alt=""/>
